@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Microbs\Documents\Erfan\codes\SmarAct_CppBinding\Cpp\src\smaract.cpp">
+      <Filter>Cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Microbs\Documents\Erfan\codes\SmarAct_CppBinding\Binding\smaract.cpp">
+      <Filter>Binding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Microbs\Documents\Erfan\codes\SmarAct_CppBinding\Binding\smaract_main.cpp">
+      <Filter>Binding</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Microbs\Documents\Erfan\codes\SmarAct_CppBinding\Cpp\include\headers\MCSControl.h">
+      <Filter>Cpp\include\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Microbs\Documents\Erfan\codes\SmarAct_CppBinding\Cpp\include\headers\smaract.h">
+      <Filter>Cpp\include\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Microbs\Documents\Erfan\codes\SmarAct_CppBinding\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Binding">
+      <UniqueIdentifier>{42B41A8F-BC71-3721-95A1-EC7876E2E5E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp">
+      <UniqueIdentifier>{DD20A898-156A-3F2C-ABD3-F90215CE6BCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\include">
+      <UniqueIdentifier>{2964E535-A9DF-34B9-8291-9EC065C367F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\include\headers">
+      <UniqueIdentifier>{017EA0A1-051F-3A05-BF97-33EFDD96059E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\src">
+      <UniqueIdentifier>{5A1CB9B3-B29F-3B93-8A4F-9FE376B381D6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

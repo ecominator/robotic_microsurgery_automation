@@ -1,0 +1,10 @@
+^C:\USERS\MICROBS\DOCUMENTS\ERFAN\CODES\SMARACT_CPPBINDING\BUILD\CMAKEFILES\C7BAA166CD10A2BE22922ADB3C78D5BD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Microbs/Documents/Erfan/codes/SmarAct_CppBinding -BC:/Users/Microbs/Documents/Erfan/codes/SmarAct_CppBinding/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Microbs/Documents/Erfan/codes/SmarAct_CppBinding/build/SmarAct.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
