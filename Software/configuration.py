@@ -6,7 +6,7 @@
 #               erfan.etesami@epfl.ch, ece.ozelci@epfl.ch
 # Version:      22.0
 # Description:  This file contains the settings which are used to 
-#               confiugre the components and various functions of the 
+#               configure the components and various functions of the 
 #               robotic platform.
 ##############################################################################
 
