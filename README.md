@@ -6,6 +6,7 @@ For detailed installation requirements please contact ece.ozelci@epfl.ch
 2. Install the required packages in the virtual environment: pip, Numpy, pybind11, PyQt5, PyQtGraph, PySerial, PyPylon, PIPython, OpenCV, TensorFlow, Pygame, matplotlib
 ## C++ to Python binding
 SmarAct_CppBinding: the directory that contains the C++ codes and the subsequently generated python module.
+
 Directories inside SmarAct_CppBinding:
 - Cpp/src: The SmarAct.cpp source file
 - Cpp/include/3rdParty: MCSControl.dll, MCSControl.lib, and SmarActIO.dll (These files are from the SmarAct installation folder.)
@@ -16,7 +17,7 @@ Directories inside SmarAct_CppBinding:
 ## Software
 - asm: arduino file to drive the stepper motor
 - deep-networks: the model file of the deep-noto network 
-- asm.py: fucntions to control the stepper motor via Arduino (works with 'ino file in asm folder) 
+- asm.py: fucntions to control the stepper motor via Arduino (works with .ino file in asm folder) 
 - auxilary.py: functions used in the software
 - computer_vision.py: methods that are used in computer vision tasks
 - configuration.py: settings that are used to configure the components and functions of the robotic platform
