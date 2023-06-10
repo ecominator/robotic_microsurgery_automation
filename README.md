@@ -6,7 +6,7 @@ For detailed installation requirements please contact ece.ozelci@epfl.ch
 2. Install the required packages in the virtual environment: pip, Numpy, pybind11, PyQt5, PyQtGraph, PySerial, PyPylon, PIPython, OpenCV, TensorFlow, Pygame, matplotlib
 ## C++ to Python binding
 SmarAct_CppBinding: the directory that contains the C++ codes and the subsequently generated python module.
-- Directories inside SmarAct_CppBinding:
+Directories inside SmarAct_CppBinding:
 - Cpp/src: The SmarAct.cpp source file
 - Cpp/include/3rdParty: MCSControl.dll, MCSControl.lib, and SmarActIO.dll (These files are from the SmarAct installation folder.)
 - Cpp/include/headers: The SmarAct.h header file, MCSControl.h (from the SmarAct installation folder)
