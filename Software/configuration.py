@@ -258,8 +258,8 @@ class Configuration:
         self.id_pistage_l2                                              = 8
         
         # sequence constants and variables
-        self.sequence_linear_speed                                  	= 800000    	    # nm/s = 0.8mm/s
-        self.sequence_angular_speed                                     = 8000000    	    # uDeg/s = 8deg/s
+        self.sequence_linear_speed                                  	= 1000000    	    # nm/s = 1mm/s
+        self.sequence_angular_speed                                     = 100000000    	    # uDeg/s = 10deg/s
         self.sequence_initial_alpha                                     = 839192            # uDeg = 0.839192deg
         self.sequence_initial_beta                                      = 44000000          # uDeg = 44deg (used to be 53deg)
         self.sequence_initial_z                                         = 8100000           # nm = 8.10mm (used to be 18.650mm)
@@ -331,8 +331,8 @@ class Configuration:
         self.automation_num_l2                                          = 6         # number of embryos in the pistage l2 direction
         self.automation_step_l1                                         = 2.00      # mm, spacing between embryos in the pistage l1 direction
         self.automation_step_l2                                         = 2.00      # mm, spacing between embryos in the pistage l2 direction
-        self.automation_speed_smaract                                   = 800000    # nm/s = 0.8mm/s
-        self.automation_speed_pistage                                   = 0.8       # mm/s
+        self.automation_speed_smaract                                   = 1500000    # nm/s = 1.5mm/s
+        self.automation_speed_pistage                                   = 1       # mm/s
         self.automation_flag_save_image                                 = 0
         self.automation_flag_release_debris                             = 0
         self.automation_flag_cv_dn                                      = 0         # 0: cv (computer vision), 1: dn (deep network)
